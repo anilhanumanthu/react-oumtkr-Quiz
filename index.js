@@ -12,7 +12,6 @@ class QuizBee extends Component {
     score : 0,
     responses : 0
   };
-
   getQuestions = () => {
     quizService().then(question => {
       this.setState({
